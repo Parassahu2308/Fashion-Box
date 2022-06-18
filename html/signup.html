@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <img class="logo" src="../images/login-logo.png" alt="">
+        <div class="buttons">
+            <input class="login" id="login" type="button" value="Login">
+            <input class="signup" id="signup" type="button" value="Sign up">
+        </div>
+        <form>
+            <div class="name flex">
+                <div class="f_name">
+                    <h3>First Name</h3>
+                    <input type="text" id="f_name" name="f_name" required>
+                </div>
+                <div class="l_name">
+                    <h3>Last Name</h3>
+                    <input type="text" id="l_name" name="f_name" required>
+                </div>
+            </div>
+            <div class="email">
+                <h3>Email</h3>
+                <input type="email" id="email" name="c_email" placeholder=" Enter the Email" required>
+            </div>
+            <div class="phone_no">
+                <h3>Phone no.</h3>
+                <input type="tel" id="phone_no" name="c_phone" placeholder=" Enter the Phone no." required>
+            </div>
+            <div class="password">
+                <h3>Password</h3>
+                <input type="password" id="password" name="pass" placeholder=" Enter the Password" required>
+            </div>
+            <div class="c_password">
+                <h3>Confrim Password</h3>
+                <input type="password" id="password" name="pass" placeholder=" Enter the again Password" required>
+            </div>
+            <input type="submit" class="submit" value="Sign up">
+        </form>
+        <hr class="line">
+        <p>Already Created Account? <a href="../html/login.html">Login</a></p>
+    </section>
+
+    <script>
+        $('#login').click(function () {
+            location.href = "login.html";
+        })
+    </script>
+</body>
+
+</html>

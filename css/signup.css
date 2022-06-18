@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    margin: 10px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    position: relative;
+    margin: 100px auto;
+    width: 508px;
+    height: 550px;
+    box-shadow: black 10px 10px 40px;
+}
+.container .logo{
+    position: inherit;
+    left: 140px;
+    height:72px;
+    width:248px;
+}
+.container .buttons{
+    display: flex;
+}
+.container .buttons .login{
+    width: 254px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    box-shadow: black 1px 3px 3px;
+}
+.container .buttons .signup{
+    width: 254px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    box-shadow: black 1px 5px 10px;
+}
+.f_name {
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.l_name{
+    margin-right: 50px;
+    margin-top: 15px;
+}
+#f_name, #l_name{
+    width: 80%;
+   height: 30px;
+   border-radius: 6px;
+}
+.email, .phone_no, .password, .c_password{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+#email, #phone_no, #password, #c_password{
+   width: 80%;
+   height: 30px;
+   border-radius: 6px;
+}
+.submit{
+    width: 66%;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-left: 90px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+}
+.container p{
+    text-align: center;
+}
+.container p a{
+    color: black;
+}
+.container p a:hover{
+    text-decoration: none;
+}

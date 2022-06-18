@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    scroll-behavior: smooth;
+}
+.line{
+    opacity: 1;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.navbar{
+    background: black;
+    height: 77px;
+}
+.container{
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .logo img{
+     margin-top: 6px;
+     height: 60px;
+     width: 238px;
+}
+.dropdown .btn{
+     margin-right: 950px;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+     color: white;
+     background: black;
+}
+.search{
+    position: relative;
+    top: -52px;
+    left: 341px;
+    width: 400px;
+}
+.search .btn{
+    position: relative;
+    top: -38px;
+    left: 394px;
+}
+.account{
+    display: flex;
+    position: relative;
+    top: -73px;
+    right: 160px;
+}
+.account .login{
+    margin-right: -7px;
+}
+.account .signup{
+    margin-right: -13px;
+    margin-left: 70px;
+}
+.account .cart{
+    margin-left: 58px;
+    margin-right: -119px;
+}
+.account .login img{
+    width: 1.2rem;
+}
+.account .signup img{
+    width: 1.2rem;
+}
+.account .cart img{
+    width: 1.2rem;
+}
+.account .login a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.account .signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.account .cart a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.detail {
+    margin: 50px 60px;
+}
+.detail .row .left .pics img{
+     height: 80px;
+     width: 80px;  
+}
+.detail .row .left .pics button{
+    margin-top: 20px;
+}
+/* .detail .row .left .pics .buttons{
+    box-shadow: #ffc107 1px 1px 10px 5px;
+} */
+.detail .row .left .lg-image{
+    position: relative;
+    left: 30px;
+}
+.detail .row .left .lg-image .btns{
+    position: relative;
+    margin: 0 60px;
+    top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail .right{
+    margin-left: 100px;
+}
+.detail .right .para{
+    position: relative;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: justify;
+    top: 50px;
+}
+.detail .right .rating {
+    margin-top: 50px;
+    font-size: 18px;
+}
+.detail .right .rating p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.detail .right .rating p{
+    color: cornflowerblue;
+}
+.line1{
+    opacity: 1;
+    width: 570px;
+    margin-top: -14px;
+}
+.detail .right .tag{
+    color:green;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.right .price{
+    font-size: 2rem;
+}
+
+.right>.price>span{
+    color: green;
+    font-size: 1rem;
+    text-decoration:line-through;
+}
+
+.footer .block{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer .block h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer .block .line {
+    border-left: 4px solid white ;
+    height: 210px;
+}
+.footer .block .subscribe .form{
+    padding: 5px;
+    text-align: center;
+}
+.footer .block .subscribe .form .email{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    border-radius: 8px;
+}
+.footer .block .subscribe .form .btn{
+   margin-top: 20px;
+   font-size: 1rem;
+   border-radius: 8px;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.navbar{
+    background: black;
+    height: 77px;
+}
+.container{
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .logo img{
+     margin-top: 6px;
+     height: 60px;
+     width: 238px;
+}
+.dropdown .btn{
+     margin-right: 950px;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+     color: white;
+     background: black;
+}
+.search{
+    position: relative;
+    top: -52px;
+    left: 341px;
+    width: 400px;
+}
+.search .btn{
+    position: relative;
+    top: -38px;
+    left: 394px;
+}
+.account{
+    display: flex;
+    position: relative;
+    top: -73px;
+    right: 160px;
+}
+.account .login{
+    margin-right: -7px;
+}
+.account .signup{
+    margin-right: -13px;
+    margin-left: 70px;
+}
+.account .cart{
+    margin-left: 58px;
+    margin-right: -119px;
+}
+.account .login img{
+    width: 1.2rem;
+}
+.account .signup img{
+    width: 1.2rem;
+}
+.account .cart img{
+    width: 1.2rem;
+}
+.account .login a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.account .signup a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.account .cart a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    background-image: linear-gradient(to right ,white,black,white);
+    color: white;
+}
+
+.items .row{
+    margin: 50px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.items .card{
+    position: relative;
+    width: 346px;
+    height: 400px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.items .row .card .card-img{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 185px;
+    justify-content: center;
+}
+.items .card .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    margin-bottom: 10px;
+}
+.items .card .buttons .btn{
+    font-size: 18px;
+}
+.items .card .card-body .card-text{
+    font-size: 17px;
+    color: rgb(82, 140, 247);
+    font-family:serif;
+    line-height: 15px;
+}
+.items .card .card-body .rating {
+    display: flex;
+    margin-top: -15px;
+    align-items: center;
+}
+.items .card .card-body .rating span{
+    margin: 0 10px;
+    color: rgb(82, 140, 247);
+}
+.items .card .card-body >span{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.footer .block{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.footer .block h3{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer .block .line {
+    border-left: 4px solid white ;
+    height: 210px;
+}
+.footer .block .subscribe .form{
+    padding: 5px;
+    text-align: center;
+}
+.footer .block .subscribe .form .email{
+    position: relative;
+    width: 270px;
+    height: 30px;
+    border-radius: 8px;
+}
+.footer .block .subscribe .form .btn{
+   margin-top: 20px;
+   font-size: 1rem;
+   border-radius: 8px;
+}

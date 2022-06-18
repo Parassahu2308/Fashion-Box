@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line{
+    margin: 5px 0;
+}
+.container{
+    position: relative;
+    margin: 100px auto;
+    width: 508px;
+    height: 364px;
+    box-shadow: black 10px 10px 40px;
+}
+.container .logo{
+    position: inherit;
+    left: 140px;
+    height:72px;
+    width:248px;
+}
+.container .buttons{
+    display: flex;
+}
+.container .buttons .login{
+    width: 254px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    box-shadow: black 1px 5px 10px;
+}
+.container .buttons .signup{
+    width: 254px;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    box-shadow: black 1px 3px 3px;
+}
+
+.email, .password{
+    margin-left: 90px;
+    margin-top: 15px;
+}
+#email, #password{
+    width: 80%;
+    height: 30px;
+    border-radius: 6px;
+}
+.submit{
+    width: 66%;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-left: 90px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+}
+.f_pass{
+    margin-top: 5px;
+    margin-left: 200px;
+    color: black;
+    text-decoration: none;
+}
+.f_pass:hover{
+    text-decoration: underline;
+    color: black;
+}
+.container p{
+    text-align: center;
+}
+.container p a{
+    color: black;
+}
+.container p a:hover{
+    text-decoration: none;
+}

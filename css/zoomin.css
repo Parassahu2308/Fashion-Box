@@ -1,0 +1,27 @@
+
+        *{
+    box-sizing: border-box;
+}
+.img-zoom-container{
+    position: relative;
+}
+#myimage{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+.img-zoom-lens{
+    position: absolute;
+    border: 1px solid #ffffff;      /* create the lens */
+    width: 60px;
+    height: 60px;
+}
+.img-zoom-result{
+    position: absolute;
+    top: 1rem;
+    right: 10rem;
+    border: 1px solid #ffffff;       /*set the size of the result image*/
+    width: 40rem;
+    height: 40rem;
+}
+ 

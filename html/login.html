@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <img class="logo" src="../images/login-logo.png" alt="">
+        <div class="buttons">
+            <input class="login" id="login" type="button" value="Login">
+            <input class="signup" id="signup" type="button" value="Sign up">
+        </div>
+        <form>
+            <div class="email">
+                <h3>Email/Phone no.</h3>
+                <input type="email" id="email" name="c_email" placeholder=" Enter the Email/Phone no." required>
+            </div>
+            <div class="password">
+                <h3>Password</h3>
+                <input type="password" id="password" name="pass" placeholder=" Enter the Password" required>
+            </div>
+            <input type="submit" class="submit" value="Login">
+        </form>
+        <a href="#" class="f_pass">Forget Password?</a>
+        <hr class="line">
+        <p>If you haven't Account? <a href="../html/signup.html">Create New Account?</a></p>
+    </section>
+
+    <script>
+        $('#signup').click(function () {
+            location.href = "signup.html";
+        })
+    </script>
+</body>
+
+</html>
